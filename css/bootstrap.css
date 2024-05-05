@@ -7057,14 +7057,6 @@ td.hidden-lg {
   display: table-cell !important;
 }
 
-@media (max-width: 767px) {
-  .hidden-lg.hidden-xs,
-  tr.hidden-lg.hidden-xs,
-  th.hidden-lg.hidden-xs,
-  td.hidden-lg.hidden-xs {
-    display: none !important;
-  }
-}
 
 
 
