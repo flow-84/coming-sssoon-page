@@ -36,10 +36,10 @@ summary {
 
 @keyframes fade {
   60% {
-    opacity: 0.6;
+    opacity: 0.1;
   }
   80% {
-    opacity: 0.8;
+    opacity: 0.3;
   }
 }
 
