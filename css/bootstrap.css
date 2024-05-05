@@ -23,26 +23,6 @@ summary {
   display: block;
 }
 
-.main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  width: 100vw;
-  background-color: #8000ff;
-  animation: fade 6s ease-in-out infinite;
-}
-
-@keyframes fade {
-  60% {
-    opacity: 0.9;
-  }
-  80% {
-    opacity: 1;
-  }
-}
-
 audio,
 canvas,
 video {
@@ -60,7 +40,7 @@ template {
 }
 
 html {
-  font-family: open-sans;
+  font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -174,7 +154,6 @@ button,
 input,
 select,
 textarea {
-  display: flex;
   margin: 0;
   font-family: inherit;
   font-size: 100%;
@@ -196,7 +175,6 @@ input[type="reset"],
 input[type="submit"] {
   cursor: pointer;
   -webkit-appearance: button;
-  display: flexbox;
 }
 
 button[disabled],
@@ -288,14 +266,14 @@ table {
     page-break-after: avoid;
   }
   select {
-    background: #000000 !important;
+    background: #fff !important;
   }
   .navbar {
     display: none;
   }
   .table td,
   .table th {
-    background-color: #000000 !important;
+    background-color: #fff !important;
   }
   .btn > .caret,
   .dropup > .btn > .caret {
@@ -331,7 +309,7 @@ body {
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 input,
@@ -7017,18 +6995,23 @@ td.hidden-md {
   }
 }
 
-@media (min-width: 768px) { /* Passt die Breakpoint je nach Bedarf an */
-  .form-inline .form-group {
-    display: inline-block; /* Ermöglicht horizontale Anordnung */
-    margin-right: 10px; /* Abstand zwischen den Elementen */
-    vertical-align: middle;
-  }
-
-  .form-inline .form-control {
-    width: auto; /* Erlaubt dem Eingabefeld, seine Breite dynamisch anzupassen */
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-md.hidden-sm,
+  tr.hidden-md.hidden-sm,
+  th.hidden-md.hidden-sm,
+  td.hidden-md.hidden-sm {
+    display: none !important;
   }
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-md,
+  tr.hidden-md,
+  th.hidden-md,
+  td.hidden-md {
+    display: none !important;
+  }
+}
 
 @media (min-width: 1200px) {
   .hidden-md.hidden-lg,
@@ -7097,7 +7080,7 @@ td.visible-print {
 
 @media print {
   .visible-print {
-    display: flex !important;
+    display: block !important;
   }
   tr.visible-print {
     display: table-row !important;
