@@ -770,6 +770,7 @@
      z-index: 1;
      overflow: hidden;
      background-image: url('../images/video_bg.png');
+     opacity: 0.5;
      background-position: center center;
      background-size: cover;
  
