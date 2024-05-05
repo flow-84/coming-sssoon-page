@@ -30,7 +30,7 @@ summary {
   justify-content: center;
   height: 100vh;
   width: 100vw;
-  background-color: #000;
+  background-color: #fff;
   animation: fade 6s ease-in-out infinite;
 }
 
