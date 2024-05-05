@@ -70,7 +70,7 @@ body {
 }
 
 a {
-  background: black;
+  background: transparent;
 }
 
 a:focus {
