@@ -230,7 +230,7 @@ input::-moz-focus-inner {
 
 textarea {
   overflow: auto;
-  vertical-align: ;
+  vertical-align: top;
 }
 
 table {
@@ -288,14 +288,14 @@ table {
     page-break-after: avoid;
   }
   select {
-    background: #fff !important;
+    background: #000000 !important;
   }
   .navbar {
     display: none;
   }
   .table td,
   .table th {
-    background-color: #fff !important;
+    background-color: #000000 !important;
   }
   .btn > .caret,
   .dropup > .btn > .caret {
@@ -331,7 +331,7 @@ body {
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 input,
@@ -7066,14 +7066,6 @@ td.hidden-lg {
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-  .hidden-lg.hidden-sm,
-  tr.hidden-lg.hidden-sm,
-  th.hidden-lg.hidden-sm,
-  td.hidden-lg.hidden-sm {
-    display: none !important;
-  }
-}
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .hidden-lg.hidden-md,
@@ -7102,7 +7094,7 @@ td.visible-print {
 
 @media print {
   .visible-print {
-    display: block !important;
+    display: flex !important;
   }
   tr.visible-print {
     display: table-row !important;
