@@ -730,7 +730,7 @@
  }
  .main .logo{
      color: #FFFFFF;
-     font-size: 56px;
+     font-size: 46px;
      font-weight: 300;
      position: relative;
      text-align: center;
@@ -751,7 +751,7 @@
      min-height: 140px;
  }
  .main .motto, .main .subscribe .info-text{
-     font-size: 28px;
+     font-size: 26px;
      color: #FFFFFF;
      text-shadow: 0 1px 4px rgba(0, 0, 0, 0.33);
      text-align: center;
