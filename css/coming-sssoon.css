@@ -225,12 +225,30 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     border-color: #FF9500;
 }
 
+/* Reduzierung des Abstandes zwischen E-Mail-Feld und Button */
 .email-input {
-    margin-right: 5px; /* Adjust this value as needed */
+    margin-right: 5px; /* Verringere den Abstand rechts */
 }
+
+/* Entfernen von unnötigen Abständen und Padding-Anpassungen */
+@media (min-width: 768px) {
+    .form-inline .form-group {
+        margin-right: 0; /* Kein zusätzlicher Abstand rechts vom E-Mail-Feld */
+    }
+}
+
+/* Anpassungen der Größen und Abstände von Eingabefeld und Button */
+.form-control, .btn {
+    padding: 6px 12px; /* Kleineres Padding, um Elemente näher zusammenzubringen */
+}
+
+/* Spezifische Anpassungen für kleinere Bildschirme und mobile Geräte */
 @media (max-width: 768px) {
     .email-input {
-        margin-right: 0px;
+        margin-right: 0; /* Kein rechter Margin auf mobilen Geräten */
+    }
+    .form-control, .btn {
+        padding: 6px 10px; /* Noch kleineres Padding auf mobilen Geräten */
     }
 }
 
