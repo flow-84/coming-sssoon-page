@@ -31,16 +31,16 @@ summary {
   height: 100vh;
   width: 100vw;
   background-color: #000;
-  animation: fade 5s ease-out-in infinite alternate;
+  animation: fade 5s ease-in-out infinite;
 }
 
 @keyframes fade {
-  60% {
+  0% {
     opacity: 0;
   }
-  80% {
+  60% {
     opacity: 1;
-  
+  }
 }
 
 audio,
