@@ -23,6 +23,26 @@ summary {
   display: block;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffa07a;
+  animation: fade 5s ease-in-out infinite;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+
 audio,
 canvas,
 video {
