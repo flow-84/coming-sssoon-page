@@ -7017,6 +7017,17 @@ td.hidden-md {
   }
 }
 
+@media (min-width: 768px) { /* Passt die Breakpoint je nach Bedarf an */
+  .form-inline .form-group {
+    display: inline-block; /* Ermöglicht horizontale Anordnung */
+    margin-right: 10px; /* Abstand zwischen den Elementen */
+    vertical-align: middle;
+  }
+
+  .form-inline .form-control {
+    width: auto; /* Erlaubt dem Eingabefeld, seine Breite dynamisch anzupassen */
+  }
+}
 
 
 @media (min-width: 1200px) {
