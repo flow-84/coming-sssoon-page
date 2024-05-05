@@ -226,11 +226,11 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 }
 
 .email-input {
-    margin-right: 15px; /* Adjust this value as needed */
+    margin-right: 5px; /* Adjust this value as needed */
 }
 @media (max-width: 768px) {
     .email-input {
-        margin-right: 10px;
+        margin-right: 0px;
     }
 }
 
