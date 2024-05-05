@@ -791,12 +791,12 @@
  
  .footer{
      position: relative;
-     bottom: 5px;
+     bottom: 20px;
      right: 0px;
      width: 100%;
      color: #AAAAAA;
      z-index: 4;
-     text-align: right;
+     text-align: center;
      margin-top: 50px;
  }
  .footer a{
