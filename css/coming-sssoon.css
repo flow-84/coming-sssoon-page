@@ -791,7 +791,7 @@
  
  .footer{
      position: relative;
-     bottom: 20px;
+     bottom: 5px;
      right: 0px;
      width: 100%;
      color: #AAAAAA;
@@ -931,7 +931,7 @@
          right: 0px;
      }
      .main .container{
-         margin-bottom: 0px;
+         margin-bottom: 50px;
      }
      #video_background{
          display: none;
