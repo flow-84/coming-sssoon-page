@@ -225,6 +225,15 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     border-color: #FF9500;
 }
 
+.email-input {
+    margin-right: 15px; /* Adjust this value as needed */
+}
+@media (max-width: 768px) {
+    .email-input {
+        margin-right: 10px;
+    }
+}
+
 
 /*           Buttons fill .btn-fill           */
 .btn-fill{
